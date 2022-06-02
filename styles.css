@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  margin-top: 100px;
+}
+
+#businessCard__container {
+  background-color: #101313;
+  width: 500px;
+  height: 300px;
+  border-radius: 3px;
+  border: 2px solid #000000;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+#circular__img {
+  max-width: 100px;
+  width: 100%;
+  border-radius: 50px;
+  box-shadow: 0 20px 80px rgba(82, 82, 82, 0.45);
+}
+
+#img__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 33%;
+  width: 100%;
+  border-right: 2px solid #fff;
+  height: 75%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 50px;
+}
+
+#info__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#name__heading {
+  font-size: 16px;
+  color: #ffffff;
+  transition: all 300ms ease;
+}
+
+#name__heading:hover {
+    color: rgb(198, 198, 198);
+}
+
+#phoneNumber__heading {
+  font-size: 14px;
+  color: #ffffff;
+  transition: all 300ms ease;
+}
+
+#phoneNumber__heading:hover {
+    color: rgb(198, 198, 198);
+}
+
+#email__heading {
+  font-size: 14px;
+  color: #ffffff;
+  transition: all 300ms ease;
+}
+
+#email__heading:hover {
+  color: rgb(198, 198, 198);
+}
+
+.info__icons {
+    color: #fff;
+    font-size: 20px;
+}
+
+.info__icons:hover {
+    transform: scale(1.05);
+    color: rgb(198, 198, 198);
+}
+
+#icon__container {
+    margin-top: 15px;
+}
+
+.fa-github-square {
+    margin-right: 6px;
+}
